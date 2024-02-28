@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(images);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+
+
+.slider-container {
+   
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    z-index: 1000;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+
+/* silder finish */
+.container h1{
+    color: white;
+}
+.container{
+    margin: 90px 20px;
+    display: flex; 
+}
+.container .side{
+    flex: 1;
+    margin: 0 10px;
+}
+.container .side img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.bestseller-heading{
+    color: white;
+    font-size: 45px;
+
+}
+.newthismonth-heading{
+    color: white;
+    font-size: 45px;
+}
+ 
+
+.h1{
+    color: white;
+}
+.bestseller h1{
+
+    color: white;
+}
+
+
+.bestseller{
+    margin: 90px 20px;
+    display: flex; 
+}
+.bestseller .side{
+    flex: 1;
+    margin: 0 10px;
+}
+.bestseller .side img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    
+}
+/* star */
+.aria-hidden{
+    font-size: 10px;
+}
+.checked{
+    color:orange;
+}
+p{
+    font-size: 20px;
+    color:white;
+}
+
+
+ /* --------- sign up page containeer ----------*/
+
+
+
+body {
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* new css for new nav  */
+
+
+
+.navbar-brand{
+    margin-right: 50px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.navbar .navbar-nav > li > a {
+    font-size: 25px; 
+}
+
+
+/* Navbar background color and font color */
+.navbar {
+    background-color: transparent;
+    border-color: #a82929;
+    color: #ffffff;
+}
+
+/* Navbar Brand text color */
+.navbar .navbar-brand {
+    color: #ffffff;
+   
+}
+
+/* Navbar links color */
+.navbar .navbar-nav > li > a {
+    color: #ffffff;
+    
+}
+
+
+/* Dropdown menu background color */
+.navbar .navbar-nav .open .dropdown-menu {
+    background-color: #333 ;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Dropdown menu links color */
+.navbar .navbar-nav .open .dropdown-menu > li > a {
+    color: #b2adad;
+}
+
+/* Dropdown menu links hover color */
+.navbar.navbar-nav .open .dropdown-menu > li > a:hover{
+    color: #6b6666;
+    background-color: transparent;
+}
+
+/* Search input styling */
+.search-container input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-container input[type=text]:focus {
+    outline: none;
+    background-color: #555;
+}
+
+/* Adjusting dropdown caret color */
+.navbar-inverse .navbar-nav .open .dropdown-toggle .caret {
+    border-top-color: #857c7c;
+    border-bottom-color: #ffffff;
+}
+
+/* container page*/
+.coantaineer {
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.coantaineer form {
+    width: 100%;
+    padding: 20px;
+    background: rgba(124, 133, 141, 0.49);
+    border-radius: 4px;
+    box-shadow: 0 9px 17px;
+}
+
+.coantaineer h1 {
+    color: white;
+
+}
+
+.coantaineer .form-group {
+    margin-bottom: 20px;
+}
+
+.coantaineer .form-group label {
+    color: rgb(27, 28, 29);
+}
+
+.coantaineer .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #181616;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.coantaineer .btn {
+    width: 100%;
+    background-color: green;
+    color: rgb(15, 14, 14);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.container-about{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgb(17, 204, 17);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+h1{
+    text-align: center;
+    color:#201f1f;
+
+}
+p{
+    line-height: 2;
+    font-size: 27px;
+    color:#6b6666
+}
+
+.location h1{
+    text-align: left;
+    color: white;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/*Responsive style
+@media screen and (max-width:600px){
+    header,nav,main,footer{
+        padding: 10px;
+    }
+    nav ul li{
+        display: block;
+        margin:10px 0;
+    }
+}
+*/
+
